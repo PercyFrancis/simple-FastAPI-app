@@ -1,0 +1,16 @@
+  services:
+    postgres:
+      image: postgres:16
+      container_name: simple-fastapi-postgres
+      restart: unless-stopped
+      environment:
+        POSTGRES_USER: percy
+        POSTGRES_PASSWORD: 1144simplefast
+        POSTGRES_DB: fastapi_app_db
+      ports:
+        - "5433:5432"
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+
+  volumes:
+    postgres_data:
