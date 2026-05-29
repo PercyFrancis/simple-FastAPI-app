@@ -8,3 +8,5 @@ Returns `{"status": "ok"}` on the `/health` route.
 
 - Also includes simple demo that can post and get items (with arbitrary constraints) from memory. 
 - AI was used for asking questions. AI did not write any code.
+  - I did, however, ask AI for examples fo code and walkthroughs for accomplishing the tasks.
+  - This includes a walkthrough for refactoring like dispatch.
