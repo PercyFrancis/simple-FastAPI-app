@@ -1,4 +1,4 @@
-# simple-FastAPI-app
+# simple-fastapi-app
 
 Returns `{"status": "ok"}` on the `/health` route.
 
